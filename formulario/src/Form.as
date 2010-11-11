@@ -16,7 +16,7 @@
 		private function sendMail(event:MouseEvent):void
 		{
 			var params:URLVariables = new URLVariables();
-			var request:URLRequest = new URLRequest("http://ewex.com.mx/labs/formulario/services/mail.php");
+			var request:URLRequest = new URLRequest("http://domain.com/services/mail.php");
 			var loader:URLLoader = new URLLoader();
 			
 			params.name = name_txt.text;
